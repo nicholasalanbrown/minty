@@ -27,6 +27,9 @@ var APP_ID = undefined; //replace with "amzn1.echo-sdk-ams.app.[your-unique-valu
  * The AlexaSkill prototype and helper functions
  */
 var AlexaSkill = require('./AlexaSkill');
+var app = require('apiai');
+var app = apiai("17f74156e0944fffb8eda6f91cbdfe18");
+
 
 /**
  * Minty is a child of AlexaSkill.
@@ -77,4 +80,3 @@ exports.handler = function (event, context) {
     var Minty = new Minty();
     Minty.execute(event, context);
 };
-
