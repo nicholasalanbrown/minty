@@ -1,7 +1,7 @@
-HelloWorldIntent say hello
-HelloWorldIntent say hello world
-HelloWorldIntent hello
-HelloWorldIntent say hi
-HelloWorldIntent say hi world
-HelloWorldIntent hi
-HelloWorldIntent how are you
+MintyIntent say hello
+MintyIntent say hello world
+MintyIntent hello
+MintyIntent say hi
+MintyIntent say hi world
+MintyIntent hi
+MintyIntent how are you
